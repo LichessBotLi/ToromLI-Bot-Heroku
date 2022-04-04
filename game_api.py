@@ -23,12 +23,10 @@ class Game_api:
         
         
         self.api.send_chat_message(self.game_id, "player", "Hello I am @Endogenetic-Bot made by @Soloboy4.Best of Luck to you.")
-        self.api.send_chat_message(self.game_id, "player", "Type !help or !cmd for a list of commands. I may respond too")
-        self.api.send_chat_message(self.game_id, "player", "Best of Luck to you! Try to Join my official team Endogenetic-Bot to chat with me")
+        self.api.send_chat_message(self.game_id, "player", "Type !help or !cmd for a list of commands. I may respond too.Best of Luck to you! Try to Join my official team Endogenetic-Bot to chat with me")
 
         self.api.send_chat_message(self.game_id, "spectator", "Welcome friends to my game!")
-        self.api.send_chat_message(self.game_id, "spectator", "Thanks for watching my games!")
-        self.api.send_chat_message(self.game_id, "spectator", "Also type !cmd for commands and do not forget to Challenge me when I am not playing any game")
+        self.api.send_chat_message(self.game_id, "spectator", "Thanks for watching my game")
 
 
         while True:
